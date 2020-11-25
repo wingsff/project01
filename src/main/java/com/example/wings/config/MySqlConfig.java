@@ -22,6 +22,7 @@ import javax.sql.DataSource;
 @MapperScan(basePackages = "com.example.wings.domain.mapper", sqlSessionFactoryRef = "mySqlSessionFactory")
 public class MySqlConfig {
 
+
     @Value("${mybatis.mapper-locations}")
     private String mapperLocation;
 
